@@ -42,4 +42,4 @@ To flash just connect it all, power the RPI, log in and execute the following co
 
 You dont need to put the ProMicro device into the bootloader state before flashing, OpenOCD will to the hard work for you. After flashing, you can double-tap the RST pin with GND and a beautiful `NICENANO` device will shuddenly be mounted!
 
-
+Before flashing, OpenOCD will not exit, hit `Ctrl + C` to exit.
